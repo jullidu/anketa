@@ -1,4 +1,66 @@
+@font-face {
+  font-family: 'PT Sans';
+  src: url('./fonts/PTSans-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Courier New';
+  src: url('./fonts/cour.ttf') format('ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1001px;
+  height: 100vh;
+  background-image: url(images/delo_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.logo {
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;
+  width: 77px;
+  height: 77px;
+  margin: 0 0 24px 117px;
+}
+
 .title {
-  font-size: 2rem;
-  color: blueviolet;
+  background-image: url(images/delo.png);
+  background-repeat: no-repeat;
+  width: 212px;
+  height: 79px;
+  margin: 0 auto 60px;
+}
+
+.personal-data {
+  margin: 0 99px 0 117px;
+}
+
+.data-list {
+  list-style-type: none;
+}
+
+.data-item {
+  color: #2f1b15;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 49.83px;
+}
+
+.data-item-text {
+  border-bottom: #411d4a 2px solid;
+  font-family: 'Courier New';
+  color: #231f20;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
 }
