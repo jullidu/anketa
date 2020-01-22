@@ -1,0 +1,60 @@
+{
+  "fio": "Михайлова Юлия Андреевна",
+  "year": "1990",
+  "city": "г. Денпасар",
+  "skype": "jullidu_1",
+  "email": "jullidu@gmail.com",
+  "checkbox": [{
+      "name": "HTML",
+      "checked": true
+    },
+    {
+      "name": "CSS",
+      "checked": true
+    },
+    {
+      "name": "SCSS (SASS)",
+      "checked": true
+    },
+    {
+      "name": "БЭМ",
+      "checked": true
+    },
+
+    {
+      "name": "JQuery",
+      "checked": true
+    },
+    {
+      "name": "Vue.js",
+      "checked": false
+    },
+    {
+      "name": "Nuxt.js",
+      "checked": false
+    },
+    {
+      "name": "Git",
+      "checked": true
+    },
+
+    {
+      "name": "Адаптивная верстка",
+      "checked": true
+    },
+    {
+      "name": "Верстка писем",
+      "checked": true
+    },
+    {
+      "name": "PHP",
+      "checked": false
+    },
+    {
+      "name": "MySql",
+      "checked": false
+    }
+  ],
+  "level": "3",
+  "date": "22.01.2020"
+}

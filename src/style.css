@@ -14,6 +14,8 @@
   box-sizing: border-box;
 }
 
+/* styles for wrapper */
+
 .wrapper {
   max-width: 1001px;
   height: 100vh;
@@ -25,6 +27,8 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+/* styles for logo */
+
 .logo {
   background-image: url(images/logo.png);
   background-repeat: no-repeat;
@@ -32,6 +36,22 @@
   height: 77px;
   margin: 0 0 24px 117px;
 }
+
+/* media for logo */
+
+@media (max-width: 992px) {
+  .logo {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width:450px) {
+  .logo {
+    margin-left: 20px;
+  }
+}
+
+/* styles for title */
 
 .title {
   background-image: url(images/delo.png);
@@ -41,26 +61,84 @@
   margin: 0 auto 60px;
 }
 
+/* styles for personal-data section */
+
 .personal-data {
-  margin: 0 99px 0 117px;
+  margin: 0 111px 0 117px;
 }
 
-.data-list {
-  list-style-type: none;
+.data-box {
+  display: grid;
+  grid-template-columns: max-content auto;
+  grid-column-gap: 15px;
+  margin-bottom: 30px;
 }
 
 .data-item {
   color: #2f1b15;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
-  line-height: 49.83px;
+  align-self: end;
 }
 
 .data-item-text {
   border-bottom: #411d4a 2px solid;
   font-family: 'Courier New';
   color: #231f20;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 400;
   line-height: 36px;
+  padding: 0 0 5px 15px;
+}
+
+/* media for personal-data section */
+
+@media (max-width: 992px) {
+  .personal-data {
+    margin: 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .data-box {
+    grid-template-columns: 1fr;
+  }
+
+  .data-item-text {
+    text-align: center;
+    padding: 0 0 5px 0;
+  }
+}
+
+@media (max-width:450px) {
+  .personal-data {
+    margin: 0 20px;
+  }
+
+  .data-item-text {
+    letter-spacing: -3px;
+  }
+}
+
+/* styles for about-yourself section */
+
+.about-yourself {
+  margin: 72px 112px 0 117px;
+}
+
+.about-yourself-title {
+  color: #2f1b15;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 49.83px;
+  margin-bottom: 10px;
+}
+
+.about-yourself-desc {
+  text-align: justify;
+  color: #3d3d3d;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -0.3px;
 }
