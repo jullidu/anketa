@@ -9,20 +9,15 @@
       "checked": true
     },
     {
-      "name": "CSS",
-      "checked": true
-    },
-    {
-      "name": "SCSS (SASS)",
-      "checked": true
-    },
-    {
-      "name": "БЭМ",
-      "checked": true
-    },
-
-    {
       "name": "JQuery",
+      "checked": true
+    },
+    {
+      "name": "Адаптивная верстка",
+      "checked": true
+    },
+    {
+      "name": "CSS",
       "checked": true
     },
     {
@@ -30,25 +25,28 @@
       "checked": false
     },
     {
-      "name": "Nuxt.js",
-      "checked": false
-    },
-    {
-      "name": "Git",
-      "checked": true
-    },
-
-    {
-      "name": "Адаптивная верстка",
-      "checked": true
-    },
-    {
       "name": "Верстка писем",
       "checked": true
     },
     {
+      "name": "SCSS (SASS)",
+      "checked": true
+    },
+    {
+      "name": "Nuxt.js",
+      "checked": false
+    },
+    {
       "name": "PHP",
       "checked": false
+    },
+    {
+      "name": "БЭМ",
+      "checked": true
+    },
+    {
+      "name": "Git",
+      "checked": true
     },
     {
       "name": "MySql",
