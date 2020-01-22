@@ -126,7 +126,7 @@
   margin: 72px 112px 0 117px;
 }
 
-.about-yourself-title {
+.section-title {
   color: #2f1b15;
   font-size: 1.375rem;
   font-weight: 700;
@@ -216,9 +216,6 @@ input[type="checkbox"] {
 }
 
 
-
-
-
 /* media for section about-yourself */
 @media (max-width: 992px) {
   .about-yourself {
@@ -242,4 +239,43 @@ input[type="checkbox"] {
   .about-yourself {
     margin: 72px 20px;
   }
+}
+
+/* styles for section skill-js */
+.skill-js {
+  margin: 0 114px 0 117px;
+}
+
+.slider-box {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  border-bottom: #4c204e 2px solid;
+  background: transparent;
+  outline: none;
+  padding-bottom: 5px;
+  margin-top: 15px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #4c204e;
+}
+
+.slider::-moz-range-thumb {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #4c204e;
 }
