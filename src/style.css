@@ -271,6 +271,7 @@ input[type="checkbox"] {
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   border-top: 18px solid #4c204e;
+  background-color: transparent;
 }
 
 .slider::-moz-range-thumb {
