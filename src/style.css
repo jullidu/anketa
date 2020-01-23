@@ -152,7 +152,7 @@
 #checkbox {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 30px 0 50px 0;
+  margin: 30px 0;
   grid-row-gap: 10px;
 }
 
@@ -219,7 +219,7 @@ input[type="checkbox"] {
 /* media for section about-yourself */
 @media (max-width: 992px) {
   .about-yourself {
-    margin: 72px 50px;
+    margin: 72px 50px 30px;
   }
 }
 
@@ -248,6 +248,8 @@ input[type="checkbox"] {
 
 .slider-box {
   width: 100%;
+  display: grid;
+  grid-template-rows: 34px 26px auto;
 }
 
 .slider {
@@ -266,16 +268,135 @@ input[type="checkbox"] {
   cursor: pointer;
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 15px solid #4c204e;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 18px solid #4c204e;
 }
 
 .slider::-moz-range-thumb {
+  -moz-appearance: none;
+  appearance: none;
   cursor: pointer;
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 15px solid #4c204e;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 18px solid #4c204e;
+  background-color: transparent;
+}
+
+.slider-scale {
+  border-left: 2px solid #4c204e;
+  border-right: 2px solid #4c204e;
+}
+
+.slider-scale-perc {
+  border-left: 2px solid #4c204e;
+  border-right: 2px solid #4c204e;
+  height: 10px;
+  margin-left: calc(20% - 0.188rem);
+  margin-right: calc(50% + 0.188rem)
+}
+
+.slider-desc {
+  color: #2f1b15;
+  font-size: 0.813rem;
+  font-weight: 700;
+  line-height: 19px;
+  display: grid;
+  grid-template-columns: 20% 30% 25% 25%;
+}
+
+.slider-desc__right {
+  justify-self: right;
+}
+
+.slider-desc-mobile {
+  border-bottom: 2px solid #4c204e;
+  width: 100%;
+  justify-self: center;
+  margin: 15px 0 30px 0;
+  padding-bottom: 5px;
+  text-align: center;
+  visibility: hidden;
+}
+
+#slider-skill-level {
+  color: #231f20;
+  font-family: "Courier New PSMT";
+  font-size: 1.25rem;
+  font-weight: 400;
+
+
+}
+
+/* media for section skill-js */
+
+@media (max-width: 992px) {
+  .skill-js {
+    margin: 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-desc {
+    font-size: 0.688rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider-desc {
+    display: none;
+  }
+
+  .slider-desc-mobile {
+    visibility: visible;
+  }
+
+  .slider-scale-perc {
+    margin-left: 20%;
+    margin-right: 50%;
+  }
+}
+
+@media (max-width:450px) {
+  .skill-js {
+    margin: 0 20px;
+  }
+
+}
+
+/* style for section data */
+
+.date {
+  margin: 0 0 100px 117px;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.date-name {
+  color: #2f1b15;
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+.date-text {
+  width: 206px;
+}
+
+/* media for section data */
+
+@media (max-width: 992px) {
+  .date {
+    margin: 0 0 100px 50px;
+  }
+}
+
+@media (max-width:450px) {
+  .date {
+    margin: 0 20px;
+  }
+
 }

@@ -10,11 +10,8 @@
 
 <body>
   <div class="wrapper">
-
     <div class="logo"></div>
-
     <div class="title"></div>
-
     <div class="personal-data">
       <div class="data-box">
         <p class="data-item">Полное ФИО </p>
@@ -48,15 +45,31 @@
       </div>
 
     </div>
-
-
     <div class="skill-js">
       <h2 class="section-title">Уровень владения JavaScript</h2>
       <div class="slider-box">
-        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+        <div class="slider-scale">
+          <div class="slider-scale-perc"></div>
+        </div>
+        <div class="slider-desc">
+          <span>Не владею</span>
+          <span>Использую готовые решения</span>
+          <span>Использую готовые решения
+            и умею их переделывать</span>
+          <span class="slider-desc__right">Пишу сложный JS с нуля</span>
+        </div>
+        <div class="slider-desc-mobile">
+          <span id="slider-skill-level"></span>
+        </div>
       </div>
-    </div>
 
+    </div>
+    <div class="date">
+      <span class="date-name">Дата заполнения</span>
+      <p class="data-item-text date-text" id="date"></p>
+
+    </div>
   </div>
 </body>
 
