@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test task</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="logo"></div>
+    <div class="title"></div>
+    <div class="personal-data">
+      <div class="data-box">
+        <p class="data-item">Полное ФИО </p>
+        <p class="data-item-text" id="fio"></p>
+      </div>
+      <div class="data-box">
+        <p class="data-item">Год рождения </p>
+        <p class="data-item-text" id="year"></p>
+      </div>
+      <div class="data-box">
+        <p class="data-item">Место жительства </p>
+        <p class="data-item-text" id="city"></p>
+      </div>
+      <div class="data-box">
+        <p class="data-item">Скайп </p>
+        <p class="data-item-text" id="skype"></p>
+      </div>
+      <div class="data-box">
+        <p class="data-item">Почта </p>
+        <p class="data-item-text" id="email"></p>
+      </div>
+    </div>
+    <div class="about-yourself">
+      <h2 class="section-title">Расскажите о себе чекбоксами</h2>
+      <p class="about-yourself-desc">
+        Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Отсутствие опыта не означает, что у вас меньше
+        шансов стать одним из наших товарищей. Это означает, что вы будете получать те задачи, с которыми гарантировано
+        будете справляться.
+      </p>
+      <div id="checkbox">
+      </div>
+
+    </div>
+    <div class="skill-js">
+      <h2 class="section-title">Уровень владения JavaScript</h2>
+      <div class="slider-box">
+        <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+        <div class="slider-scale">
+          <div class="slider-scale-perc"></div>
+        </div>
+        <div class="slider-desc">
+          <span>Не владею</span>
+          <span>Использую готовые решения</span>
+          <span>Использую готовые решения
+            и умею их переделывать</span>
+          <span class="slider-desc__right">Пишу сложный JS с нуля</span>
+        </div>
+        <div class="slider-desc-mobile">
+          <span id="slider-skill-level"></span>
+        </div>
+      </div>
+
+    </div>
+    <div class="date">
+      <span class="date-name">Дата заполнения</span>
+      <p class="data-item-text date-text" id="date"></p>
+
+    </div>
+  </div>
+<script type="text/javascript" src="bundle.a307684e35bd6bfdb508.js"></script></body>
+
+</html>
