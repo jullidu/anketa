@@ -1,11 +1,13 @@
 @font-face {
   font-family: 'PT Sans';
-  src: url('./fonts/PTSans-Regular.ttf') format('ttf');
+  src: url('./fonts/ptsans-regular-webfont.woff') format('woff');
+  src: url('./fonts/PTSans-Regular.ttf') format("truetype");
 }
 
 @font-face {
   font-family: 'Courier New';
-  src: url('./fonts/cour.ttf') format('ttf');
+  src: url('./fonts/cour-webfont.woff') format('woff');
+  src: url('./fonts/cour.ttf') format("truetype");
 }
 
 * {
